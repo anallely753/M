@@ -1,0 +1,54 @@
+body{
+  font-size: 100%;
+}
+
+
+.nav-wrapper a img{
+     max-width: 70%;
+     height: auto;
+}
+
+nav, .sidenav{
+  background-image: linear-gradient(to bottom, lightgray, white);
+  border-style: solid;
+  border-color: black;
+  border-width: .4px;
+}
+
+nav li>a, .sidenav li>a{
+  color: black;
+  letter-spacing: 1px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+a>i{
+  color: black;
+}
+
+h3{
+   font-family: 'Oswald', sans-serif;
+   color: #37474f;
+    text-align: center;
+}
+
+.container-cards{
+  padding: 0 5%;
+  text-align: center;
+}
+
+h4{
+  margin-top: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+iframe{
+  height: 400px;
+  width: 400px;
+  margin: 10px 0 0 0;
+}
+
+.page-footer{
+  background-color: white;
+}
